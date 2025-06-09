@@ -27,7 +27,7 @@ app.post('/send-mail', (req, res) => {
     });
 
     const mailOptions = {
-        from: 'sharjeelzaka78689@gmail.com', // Always use your authenticated email here
+        from: email, // Always use your authenticated email here
         to: 'sharjeelzaka78689@gmail.com',
         replyTo: email, // This allows you to reply directly to the user's email
         subject: subject,
